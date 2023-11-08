@@ -1,0 +1,29 @@
+Linha de comando - GIT
+
+Sistema de controle de versão. Arquiva as mudanças do seu código em um banco de dados. 
+
+Ex: Git, Bitbucket, Azure DevOps
+
+Cada um tem seu repositório local e depois envia para um repositório online.
+
+COMANDOS:
+
+
+Criação do SSH
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+
+Criação da versão que será cópia na nuvem
+
+git remote add origin LINK DE REFERÊNCIA
+
+Comando de envio de alterações
+
+git push origin "nome da branch"
+
+
+Realizar o commit
+
+git commit -m "MENSAGEM - OBRIGATÓRIA"
