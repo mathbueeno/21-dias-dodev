@@ -27,3 +27,8 @@ git push origin "nome da branch"
 Realizar o commit
 
 git commit -m "MENSAGEM - OBRIGATÓRIA"
+
+
+Jogando tudo pra stanging area
+
+git add . 
